@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="./weather.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./weather.css">
 
 </head>
-<body>
-   
-        
-    <div class="text-center" style="margin-top: 90px;" >
 
-  
+<body>
+
+
+    <div class="text-center" style="margin-top: 90px;">
+
+
         <input class="w-25" type="text" id="s1" placeholder="Enter location" style="border-radius: 20px; height: 45px;">
 
-        <button type="button" id="s2" class="bg-warning" style="height: 45px; border-radius: 10px;" onclick="searchplace()">search</button> 
+        <button type="button" id="s2" class="bg-warning" style="height: 45px; border-radius: 10px;"
+            onclick="searchplace()">search</button>
     </div>
-    
-    <div id="result" class="container w-25 text-center" style=" background-color: #ffcfdf; 
-    background-image: linear-gradient(315deg, #d67c2d91 10%, #b0f3f1 74%); margin-top: 13px; margin-left: 548px;">
-   
+    <div class="container p-2">
+        <div class="container first mt-3 p-2">
+            <div id="result" class="container w-50 ">
+
+
+            </div>
+        </div>
     </div>
 
 
 </body>
 <script src="./weather.js"></script>
 <script src="https://kit.fontawesome.com/1998d506a1.js" crossorigin="anonymous"></script>
+
 </html>
